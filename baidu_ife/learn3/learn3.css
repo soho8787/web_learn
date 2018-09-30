@@ -1,7 +1,40 @@
-#left {font-size: 32px}
+div#left {
+    font-size: 32px
+}
 
-#right {color: rgb(235, 0, 0)}
+div.right {
+    color: rgb(255, 0, 0)
+}
 
+/* 后代元素选择器 */
+tr em {
+    color: rgb(4, 8, 248);
+    font-weight: bold
+}
+
+/* 子元素选择器 */
 section > h2 {
     font-size: 60px
+}
+
+/* 相邻选择器 */
+section + h2 {
+    font-size: 60px
+}
+
+/* 选择器分组 */
+h1, h2 {
+    font-weight: bold
+}
+
+
+/* 属性选择器 */
+div[title] {
+    color: darkviolet;
+}
+
+body > h1 {
+    font-size: 40px;
+    text-indent: 2em;
+    line-height: 3cm;
 }
