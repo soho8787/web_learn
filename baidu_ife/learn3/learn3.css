@@ -1,3 +1,7 @@
 #left {font-size: 32px}
 
-#right {color: brown}
+#right {color: rgb(235, 0, 0)}
+
+section > h2 {
+    font-size: 60px
+}
